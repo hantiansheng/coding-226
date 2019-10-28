@@ -12,7 +12,7 @@ spring:
     open-in-view: true
     generate-ddl: false
   liquibase:
-    enabled: false
+    enabled: true
     change-log: classpath:META-INF/liquibase/activiti-app-db-changelog.xml
   aop:
     proxy-target-class: false
